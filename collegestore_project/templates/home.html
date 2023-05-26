@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<form  method="post"  action="home">
+                {% csrf_token %}
+<div id="pricing" class="pricing-area area-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+
+          </div>
+          <div class="">
+            <div class="pri_table_list active">
+
+
+
+              <button type="submit">Login Here</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</form>
+       {% endblock %}
+</body>
+</html>
